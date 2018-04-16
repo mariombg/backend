@@ -9,4 +9,6 @@ public interface UserService {
 	User save(User user);
 	//Recupera la lista de usuarios
 	List<User> findAll();
+	//Elimina un user con el id pasado
+	void deleteUser(Long id);
 }
